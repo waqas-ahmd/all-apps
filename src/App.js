@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       {links.map((link) => (
-        <div key={link.Id}>
+        <div key={link.Id} className="Link">
           <a href={link.URL}>{link.Title}</a>
         </div>
       ))}
